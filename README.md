@@ -61,3 +61,14 @@ de tipo e categoria, caso não encontre, utilizará um processor padrão para o 
 herdam, tais comportamento como emitir nota fiscal, gerar guia de remessa dentre outros estão nessa classe.
 
 
+# Diagrama de classes core processadores - Strategy Pattern
+- Abaixo anexo o diagrama de classe resumido, somente com a parte principal do problema a ser revolvido
+que utiliza o padrão de projeto strategy para escolher qual service será utilizado para processar cada
+ordem de pagamento.
+- A classe `AbstractProcessadorPagamento` é responsável por agrupar comportamentos comuns a todos os processadores.
+
+![StrategyProcessorServices.png](StrategyProcessorServices.png)
+
+# Diagrama Relacionamento Classe Entidades/Dominio
+
+![DiagramaModelEntidades.png](DiagramaModelEntidades.png)
